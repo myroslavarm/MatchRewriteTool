@@ -1,0 +1,11 @@
+initialization
+initializeFocus
+	self
+		focusOrder:
+			{matchExpression.
+			testExpression.
+			executeButton.
+			resultList.
+			testRewriteTool.
+			rewriteButton.
+			rewriteTool}
