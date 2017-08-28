@@ -6,6 +6,6 @@ initializeFocus
 			testExpression.
 			executeButton.
 			resultList.
-			testRewriteTool.
+			testRewriteExpression.
 			rewriteButton.
-			rewriteTool}
+			rewriteExpression}

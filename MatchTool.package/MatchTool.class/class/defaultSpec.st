@@ -17,8 +17,8 @@ defaultSpec
 		origin: 0.6@0 corner: 0.8@1;
 	
 		newColumn: [ :col | col
-			add: #testRewriteTool;
+			add: #testRewriteExpression;
 			add: #rewriteButton height: 30;
-			add: #rewriteTool ]
+			add: #rewriteExpression ]
 		origin: 0.8@0 corner: 1@1 ];
 		yourself

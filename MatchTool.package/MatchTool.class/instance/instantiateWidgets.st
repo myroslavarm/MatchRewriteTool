@@ -5,7 +5,7 @@ instantiateWidgets
 	executeButton := self newButton.
 	resultList := self newList.
 	matchMapList := self newMultiColumnList.
-	testRewriteTool := self newCode.
+	testRewriteExpression := self newCode.
 	rewriteButton := self newButton.
-	rewriteTool := self newCode.
+	rewriteExpression := self newCode.
 	

@@ -1,8 +1,14 @@
 event handling
 performRewrite
-	| rewrites |
+| sampleAST resultAST |
 
-	rewriteTool accept.
-	testRewriteTool accept.
-	
-	rewrites := OrderedCollection new.
+matchExpression accept.
+testExpression accept.
+testRewriteTool accept.
+
+sampleAST := RBParser parseExpression: testRewriteTool.
+
+resultAST := RBParseTreeRewriter
+    replace: matchExpression with: testExpression in: sampleAST.
+
+^ (rewriteTool formattedCode)

@@ -15,8 +15,10 @@ initializePresenter
 		whenListChanged: [ :newItems :oldItems |
 			 self handleListChangeFrom: oldItems to: newItems ].
 	
-	testRewriteTool acceptBlock: [ :text |
+	testRewriteExpression acceptBlock: [ :text |
 		self acceptRewriteTestExpression: text ].
 	rewriteButton action: [ self performRewrite ].
-	rewriteTool acceptBlock: [ :text |
+	rewriteExpression acceptBlock: [ :text |
 		self acceptRewriteExpression: text ].
+	
+	rewriteButton action: [ self performRewrite ].

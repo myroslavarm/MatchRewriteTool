@@ -19,10 +19,10 @@ initializeWidgets
 		{ assoc key formattedCode . 
 		  assoc value formattedCode } ].
 	
-	testRewriteTool aboutToStyle: true.
+	testRewriteExpression aboutToStyle: true.
 	rewriteButton
 		icon: #smallDoItIcon asIcon;
 		label: 'Rewrite'.
-	rewriteTool aboutToStyle: true.
+	rewriteExpression aboutToStyle: true.
 	
 	self initializeFocus

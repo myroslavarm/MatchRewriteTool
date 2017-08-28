@@ -2,9 +2,7 @@
 	"commentStamp" : "<historical>",
 	"super" : "ComposableModel",
 	"category" : "MatchTool",
-	"classinstvars" : [
-		"performRewrite"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
@@ -15,11 +13,14 @@
 		"matchMapList",
 		"matchNode",
 		"testNode",
-		"rewriteTool",
 		"rewriteNode",
-		"testRewriteTool",
 		"testRewriteNode",
-		"rewriteButton"
+		"rewriteButton",
+		"matchString",
+		"replaceString",
+		"sampleString",
+		"testRewriteExpression",
+		"rewriteExpression"
 	],
 	"name" : "MatchTool",
 	"type" : "normal"
